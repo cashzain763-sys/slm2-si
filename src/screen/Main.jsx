@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import io from "socket.io-client";
 
 // export const serverRoute = "http://localhost:8080";
-export const serverRoute = "https://ssl-se1.onrender.com";
+export const serverRoute = "https://slm2-se.onrender.com";
 export const socket = io(serverRoute);
 
 const Main = () => {
